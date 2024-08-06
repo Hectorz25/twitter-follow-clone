@@ -4,6 +4,7 @@
     color: #fff;
     font-size: .8rem;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .tw-followCard-header{
@@ -51,6 +52,11 @@
     background: transparent;
     color: #fff;
     width: 140px;
+}
+
+.tw-followCard:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+    transition: .3s ease all;
 }
 
 .tw-followCard-button.is-following:hover{
